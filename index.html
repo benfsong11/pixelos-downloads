@@ -47,6 +47,10 @@
     padding: 22px;
     margin-bottom: 18px;
   }
+  /* The screenshot carries its own window shadow, so the card gets out of
+     its way rather than framing it twice. */
+  .shot { padding: 0; background: none; border: none; overflow: hidden; }
+  .shot img { display: block; width: 100%; height: auto; }
   .download {
     display: block;
     text-align: center;
@@ -109,6 +113,10 @@
         happens until you agree.</p>
       </div>
   </div>
+
+  <div class="card shot">
+      <img src="screenshot.png" alt="Pixelos with a 16×16 character open at 3200%, showing the tool strip, canvas and inspector">
+    </div>
 
   <div class="card">
     <h2>What it does</h2>
