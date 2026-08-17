@@ -49,6 +49,8 @@
   }
   /* The screenshot carries its own window shadow, so the card gets out of
      its way rather than framing it twice. */
+  .contact { color: var(--accent); text-decoration: none; }
+  .contact:hover { text-decoration: underline; }
   .shot { padding: 0; background: none; border: none; overflow: hidden; }
   .shot img { display: block; width: 100%; height: auto; }
   .download {
@@ -101,7 +103,7 @@
     <div class="meta">
       <span>macOS 14 or later</span>
       <span>Apple silicon &amp; Intel</span>
-      <span>Updated 2026-08-16</span>
+      <span>Updated 2026-08-17</span>
     </div>
     
     <div class="note">
@@ -133,6 +135,13 @@
     <h2>Verify the download</h2>
     <p style="margin:0 0 8px;color:var(--muted);font-size:14px">SHA-256</p>
     <code>5eb4db4b56eb8c5bb8fd360e254dd2e60d4c2676725fd7225a69ebfbfe425993</code>
+  </div>
+
+  <div class="card">
+    <h2>Questions</h2>
+    <p style="margin:0;color:var(--muted)">Bugs, requests, anything else —
+      <a class="contact" href="mailto:benfsong11@naver.com?subject=Pixelos%201.0">benfsong11@naver.com</a>
+    </p>
   </div>
 
   <footer>Built for macOS. Signed with a Developer ID certificate.</footer>
